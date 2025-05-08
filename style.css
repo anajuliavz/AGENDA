@@ -1,0 +1,26 @@
+
+
+:cool{
+    --cor-de-fundo: #05051b;
+    --azul: #66bae7;
+    --azul: #260b87;
+    --botao-ativo: #a18afb;
+    --botao-inativo: rgba(21, 19, 36, 0.5);
+    --texto-fundo: rgb(246, 246, 248);
+
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--azul);
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.conteudo.principal{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+}
